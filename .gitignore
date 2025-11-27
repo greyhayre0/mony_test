@@ -1,22 +1,116 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+migrations/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Database
+*.db
+
+# Logs
+*.log
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Backup files
+*.backup
+*.bak
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Package management
+.Python
+pip-delete-this-directory.txt
+pip-selfcheck.json
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
